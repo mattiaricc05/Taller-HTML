@@ -42,6 +42,13 @@ Archivos index.html, juegos.html y login.html.
 
 ## Instrucciones de ejecución y visualización de la página web
 
+## Con Live Server
+
 - Clonar el repositorio de Git
 - Descargar la extensión Live Server
 - Abrir el archivo index.html con click derecho con la instrucción Open With Live Server
+
+## Abriendo el index.html
+
+- Clonar el repositorio de Git
+- Abrir el archivo index.html
