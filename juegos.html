@@ -12,6 +12,9 @@
             color: #fff;
             margin: 0;
             padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
         .card-img-top {
             width: 100%;
@@ -37,12 +40,69 @@
             text-decoration: none;
             font-size: 24px;
         }
+        .navbar {
+            background-color: #333;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .footer {
+            background-color: #000;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: auto;
+        }
+        .footer img {
+            max-height: 50px;
+            margin-bottom: 10px;
+        }
+        .footer p {
+            font-size: 0.8em;
+            margin: 0;
+        }
+        .footer a {
+            color: #ff4500;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
-    <a href="index.html" class="back-arrow">
-        <i class="bi bi-arrow-left"></i>
-    </a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">CALL OF DUTY</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="juegos.html">JUEGOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">NOTICIAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TIENDA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ESPORTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SOPORTE</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a href="login.html" class="btn btn-outline-light mx-2">INICIAR SESIÓN</a>
+                    <button class="btn btn-warning">CONSIGUE BLACK OPS 6</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <div class="container mt-4">
         <div class="row">
             <div class="col-md-3 mb-4">
@@ -83,6 +143,13 @@
             </div>
         </div>
     </div>
+
+    <footer class="footer">
+        <div class="container">
+            <img src="https://www.pantallasamigas.net/wp-content/uploads/2023/06/pegi-18.jpg" alt="PEGI 18">
+            <p>© 2024-2025 Activision Publishing, Inc. ACTIVISION, CALL OF DUTY, CALL OF DUTY LEAGUE, CALL OF DUTY MODERN WARFARE, MODERN WARFARE, CALL OF DUTY BLACK OPS, CALL OF DUTY WARZONE, WARZONE y CALL OF DUTY VANGUARD son marcas comerciales de Activision Publishing, Inc. El resto de marcas comerciales y nombres de marcas pertenecen a sus respectivos titulares. Para cualquier duda, consulta nuestro <a href="https://support.activision.com/es/games">Servicio al cliente</a>.</p>
+        </div>
+    </footer>
 
     <!-- Link to Bootstrap Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">

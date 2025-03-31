@@ -4,13 +4,22 @@
 
 Este taller tiene como objetivo practicar los conceptos básicos de **HTML, CSS y Bootstrap** mediante la creación de una página web sobre un tema de interés personal. La página incluirá diferentes secciones organizadas de manera clara y estructurada.
 
-### Requisitos de la página:
+Es un taller sobre el videojuego Call Of Duty.
+
+### Requisitos de la página
 - Uso de la **grilla de Bootstrap** para la estructura.
-- Una sección con **una imagen**.
-- Un área con información en **párrafos**, incluyendo al menos un **enlace externo**.
-- Una **lista de elementos** relacionados con el tema elegido.
-- Un **formulario** para que los visitantes se suscriban y reciban más información.
-- Aplicación de **estilos personalizados** además de los estilos de Bootstrap.
+- Una sección con **una imagen**. (Por ejemplo la página principal)
+- Un área con información en **párrafos** (Por ejemplo los párrafos abajo de Multijugador, Zombies y Warzone), incluyendo al menos un **enlace externo** (Ver lista de hipervínculos).
+- Una **lista de elementos** relacionados con el tema elegido (Por ejemplo la lista de la barra superior).
+- Un **formulario** para que los visitantes se suscriban y reciban más información (Por ejemplo el formulario de la página principal).
+- Aplicación de **estilos personalizados** además de los estilos de Bootstrap (Por ejemplo los estilos de la página).
+
+## Hipervínculos
+- CALL OF DUTY: la página principal.
+- Juegos: página de juegos.
+- Iniciar sesión: página con formulario de inicio de sesión.
+- Consigue Black Ops 6: página externa de compra del black ops 6.
+- Servicio al cliente: página externa de servicio al cliente de Activision.
 
 ## Pasos de desarrollo
 
@@ -27,6 +36,12 @@ Este taller tiene como objetivo practicar los conceptos básicos de **HTML, CSS 
 
 ## Entregable
 
-El código de la página (**Taller 1**) será subido a este repositorio en Git.  
+Archivos index.html, juegos.html y login.html.  
 - Se enlazará la **URL del repositorio** en la **wiki** del repositorio en la sección correspondiente.  
-- Se concederá acceso al profesor y al monitor para su revisión.  
+- Se concederá acceso al profesor y al monitor para su revisión.
+
+## Instrucciones de ejecución y visualización de la página web
+
+- Clonar el repositorio de Git
+- Descargar la extensión Live Server
+- Abrir el archivo index.html con click derecho con la instrucción Open With Live Server
